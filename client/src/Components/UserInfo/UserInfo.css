@@ -1,0 +1,45 @@
+.user_info_container {
+    width: 95%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hotpink;
+    color: white;
+}
+.user_info_container_list {
+    font-size: 25px;
+}
+.user_info_container_item {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.user_info_container_item_label {
+    margin-right: 15px;
+    color: white;
+}
+.user_info_container_item_icon {
+    margin-right: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.hobbies_item {
+    height: 100px;
+}
+.edit_button, .save_button {
+    margin-left: 36%;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    background: deeppink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.edit_button:hover, .save_button:hover {
+    background-color: rgba(24, 23, 23, 0.7);
+}

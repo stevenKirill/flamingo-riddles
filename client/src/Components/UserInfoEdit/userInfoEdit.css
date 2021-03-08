@@ -1,0 +1,33 @@
+.dashboard_user_info_edit {
+    width: 100%;
+    padding: 10px;
+    padding-left: 13px;
+    background-color: rgb(247, 166, 179);
+    border-radius: 10px;
+}
+.select_gender, .select_name, .select_country, .select_hobbies {
+    font-size: 20px;
+    color: deeppink;
+}
+.select_country_list {
+    display: block;
+}
+.edit_footer_buttons {
+    display: flex;
+    justify-content: center;
+}
+.edit_save_button {
+    margin-right: 10px;
+}
+.edit_save_button, .edit_cancel_button {
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    background: deeppink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}

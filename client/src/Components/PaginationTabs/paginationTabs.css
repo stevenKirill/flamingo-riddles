@@ -1,0 +1,28 @@
+.pagination_buttons {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.pagination_button {
+    height: 40px;
+    background-color: rgb(236, 171, 182);
+    border: none;
+    border-right: 2px solid rgb(196, 77, 97);
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.pagination_button_short_length {
+    width: 11%;
+}
+.pagination_button_medium_length {
+    width: 16%;
+}
+.pagination_button_long_length {
+    width: 24%;
+}
+.pagination_button:hover {
+    background-color: rgb(37, 182, 122);
+}

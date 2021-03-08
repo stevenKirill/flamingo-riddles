@@ -1,0 +1,15 @@
+.main_page_text {
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    color: #ee2c6d;
+}
+.main_page_title {
+    color: #ee2c6d;
+    text-align: center;
+}
+.main_page_block {
+    display: flex;
+    background-color: pink;
+}

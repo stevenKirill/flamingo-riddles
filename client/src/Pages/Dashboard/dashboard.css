@@ -1,0 +1,36 @@
+.dashboard_inner {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 20px;
+}
+.user_data_title {
+    margin-left: 7%;
+}
+.favourite_riddles_title {
+    text-align: center;
+}
+.greetig {
+    text-align: center;
+    font-weight: bold;
+}
+.suggest_riddle_block {
+    width: 50%;
+    margin-top: 10px;
+    background-color:hotpink;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.suggest_riddle_block_button {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}

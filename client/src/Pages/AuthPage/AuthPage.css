@@ -1,0 +1,29 @@
+.form-wrapper {
+    margin-top: 2rem;
+    margin-left: 20px;
+    width: 70%;
+    color: white;
+}
+.auth_button {
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    background: deeppink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.auth_button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.input_wrapper {
+    border-left: 2px solid violet;
+}
+.auth_container {
+    display: flex;
+    background-color: pink;
+    margin-top: 1px;
+}

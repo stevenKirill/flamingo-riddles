@@ -1,0 +1,19 @@
+.favourite_riddles {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hotpink;
+    color: white;
+    max-height: 454px;
+    margin-right: 20px;
+}
+.scrollable {
+    overflow-y: scroll;
+}
+.no_favourite_riddles {
+    text-align: center;
+    background: hotpink;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}

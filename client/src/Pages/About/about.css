@@ -1,0 +1,28 @@
+.about_title {
+    color: deeppink;
+    text-align: center;
+}
+.about_container {
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+}
+.about_container p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+@media(max-width: 600px) {
+    .about_img {
+        width: 220px;
+        height: 220px;
+    }
+    .about_container p {
+        margin: 0;
+        font-size: 1rem;
+    }
+    .about_title {
+        color: deeppink;
+        text-align: center;
+        font-size: 30px;
+    }
+}

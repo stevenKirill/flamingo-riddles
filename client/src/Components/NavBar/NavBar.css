@@ -1,0 +1,8 @@
+.riddles_link {
+    cursor: pointer;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.riddles_link:hover {
+    background-color: rgba(0,0,0,0.1);
+}

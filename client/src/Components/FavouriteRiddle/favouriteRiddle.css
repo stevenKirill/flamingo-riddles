@@ -1,0 +1,32 @@
+.favourite_riddles_title {
+    margin-right: 10px;
+}
+.favourite_riddle {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.riddle_fav_header {
+    margin-top: 0;
+}
+.riddle_fav_text_label, .riddle_fav_answer_label {
+    font-size: 20px;
+}
+.fav_riddle_open, .delete_riddle {
+    margin-left: 10px;
+    padding: 5px;
+    background: deeppink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color ease 0.7s;
+}
+.fav_riddle_open:focus, .delete_riddle:focus {
+    background: deeppink;   
+}
+.fav_riddle_open:hover, .delete_riddle:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+} 

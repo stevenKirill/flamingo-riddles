@@ -1,0 +1,9 @@
+.error_page {
+    width: 550px;
+    margin: 0 auto;
+}
+.error_title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}

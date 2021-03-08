@@ -1,0 +1,45 @@
+.riddle_list_item {
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 2rem;
+}
+.riddle_item_header {
+    text-align: center;
+    color: #e91e63;
+}
+.riddle_item_description, .riddle_item_answer {
+    text-align: justify;
+    font-size: 18px;
+}
+.riddle_item_description {
+    border-left: 2px solid #e91e63;
+    padding-left: 10px;
+}
+.riddle_item_answer {
+    font-size: 18px;
+    margin-top: 12px;
+    border-top: 2px solid #e91e63;
+    padding-top: 5px;
+}
+.riddle_item_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.riddle_item_button_show, .riddle_item_button_favorite {
+    padding: 10px;
+    background: deeppink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.riddle_item_button_favorite {
+    margin-left: 10px;
+}
+.riddle_item_button_show:hover, .riddle_item_button_favorite:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
